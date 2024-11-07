@@ -22,7 +22,7 @@ sudo add-apt-repository ppa:luke-jr/bitcoincore
 #sudo add-apt-repository -y ppa:bitcoin/bitcoin
 
 sudo apt update
-sudo apt install -y  libcap2-bin libdb4.8-dev libdb4.8++-dev libdb5.3-dev libdb5.3++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-tools redis-server libgmp3-dev
+sudo apt install -y  libboost-all-dev libsodium-dev libcap2-bin libdb4.8-dev libdb4.8++-dev libdb5.3-dev libdb5.3++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-tools redis-server libgmp3-dev
 sudo apt install -y sudo git npm nodejs      
 
 sudo systemctl enable fail2ban
