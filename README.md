@@ -376,6 +376,14 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
 
 
 BTC: bc1qcj77e34nhts83a8ttyrr2d7y7p00avgd53yd5l
+<<<<<<< HEAD
+=======
+-------
+### Credit:
+| [Zone117x](https://github.com/zone117x) | [EasyX-Community](https://github.com/EasyX-Community)|
+| [DirtyHarryDev](https://github.com/DirtyHarryDev) | [Satoex](https://github.com/Satoex) 
+
+>>>>>>> 5d3d485226c88ba8243bcaf99384bada9f032733
 -------
 ### Credit:
 | [Zone117x](https://github.com/zone117x) | [EasyX-Community](https://github.com/EasyX-Community)|
