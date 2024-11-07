@@ -17,7 +17,7 @@ echo "Current working dir : $PWD"
 echo "Script location path (dir) : $BASEDIR"
 echo ""
 
-~/.nvm/versions/node/v18.24.0/bin/pm2 del pool
+~/.nvm/versions/node/v18.20.4/bin/pm2 del pool
 
 redis-cli DEL statHistory
 

@@ -41,8 +41,8 @@ sudo chown -R $USER:$GROUP ~/.nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-nvm install v18.24.0
-nvm use v18.24.0
+nvm install v18.20.4
+nvm use v18.20.4
 
 npm update -g
 

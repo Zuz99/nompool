@@ -32,7 +32,7 @@ Support algo ( flex-Curvehash and other)
 * Ubuntu Server 18.04.* LTS / 20.*
 * Coin daemon
 * Node Version Manager
-* Node 18.24.0
+* Node 18.20.4
 * Process Manager 2 / pm2
 * Redis Server
 * ntp
