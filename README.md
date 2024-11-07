@@ -80,8 +80,8 @@ Other helpfull commands.
     sudo apt install git -y
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/Zuz99/kawpow-pool.git
-    cd kawpow-pool/
+    git clone https://github.com/Zuz99/nompool.git
+    cd nompool/
     bash install.sh
 
 -------
@@ -89,13 +89,13 @@ Other helpfull commands.
 
 Change "stratumHost": "192.168.1.100", to your IP or DNS in file config.json:
 
-    cd ~/kawpow-pool
+    cd ~/nompool
     nano config.json
 
 ```javascript
 {
     
-    "poolname": "KawPoW Coins Pool",
+    "poolname": "nompool",
     
     "devmode": false,
     "devmodePayMinimim": 0.25,
@@ -122,7 +122,7 @@ Change "stratumHost": "192.168.1.100", to your IP or DNS in file config.json:
 
     "logger" : {
         "level" : "debug",
-        "file" : "/home/pool/nomp-kawpow-pool/logs/nomp_debug.log"
+        "file" : "/home/pool/nompool/logs/nomp_debug.log"
     },
 
     "cliHost": "127.0.0.1",
@@ -160,8 +160,8 @@ Change "stratumHost": "192.168.1.100", to your IP or DNS in file config.json:
         "host": "0.0.0.0",
         "port": 80,
         "sslport": 443,
-        "sslkey": "/home/pool/nomp-kawpow-pool/certs/privkey.pem",
-        "sslcert": "/home/pool/nomp-kawpow-pool/certs/fullchain.pem",
+        "sslkey": "/home/pool/nompool/certs/privkey.pem",
+        "sslcert": "/home/pool/nompool/certs/fullchain.pem",
         "stratumHost": "192.168.0.200",
         "stats": {
             "updateInterval": 15,
@@ -246,7 +246,7 @@ Change "stratumHost": "192.168.1.100", to your IP or DNS in file config.json:
 
 Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wallet address in file ravencoin.json:
 
-    cd ~/nomp-kawpow-pool/pool_configs
+    cd ~/nompool/pool_configs
     nano ravencoin.json
 
 ```javascript
@@ -367,7 +367,7 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
 
 ### Run Pool
     
-    cd ~/nomp-kawpow-pool
+    cd ~/nompool
     node init.js
 
 ### Donates for developers KawPoWNOMP
