@@ -1,7 +1,7 @@
 {
     "name": "NOMPS",
     "version": "0.0.1",
-    "description": "An extremely efficient, highly scalable, KawPoW algorithm mining pool",
+    "description": "An extremely efficient, highly scalable, NOMPS mining pool",
     "keywords": [
         "stratum",
         "mining",
