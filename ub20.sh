@@ -34,7 +34,7 @@ sudo systemctl start ntp
 sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
 sudo rm -rf ~/.nvm
 sudo rm -rf ~/.npm
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 source ~/.bashrc
 
 sudo chown -R $USER:$GROUP ~/.nvm
@@ -48,7 +48,7 @@ npm update -g
 
 npm install -g webpack@latest
 npm install -g pm2@4
-npm install -g npm@6
+npm install -g npm@latest-6
 
 npm install
 npm update

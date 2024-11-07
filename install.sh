@@ -21,7 +21,7 @@ sudo add-apt-repository -y ppa:chris-lea/redis-server
 sudo add-apt-repository -y ppa:bitcoin/bitcoin
 
 sudo apt update
-sudo apt install -y libdb4.8-dev libdb4.8++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis* libsodium-dev libcap2-bin
+sudo apt install -y libdb4.8-dev libdb4.8++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server libsodium-dev libcap2-bin
 sudo apt install -y sudo git npm nodejs      
 
 sudo systemctl enable fail2ban
