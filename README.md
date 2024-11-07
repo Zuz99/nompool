@@ -370,13 +370,13 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
     cd ~/nompool
     node init.js
 
-### Donates for developers KawPoWNOMP
+### Donates for NOMP
 
 
 BTC: bc1qcj77e34nhts83a8ttyrr2d7y7p00avgd53yd5l
 -------
 ### Credit:
 | [Zone117x](https://github.com/zone117x) | [EasyX-Community](https://github.com/EasyX-Community)|
-| [DirtyHarryDev](https://github.com/DirtyHarryDev) | 
+| [DirtyHarryDev](https://github.com/DirtyHarryDev) | [Satoex](https://github.com/Satoex) 
 
 -------
