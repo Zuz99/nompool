@@ -26,13 +26,16 @@
         "type": "git",
         "url": "https://github.com/Zuz99/nompool.git"
     },
-    "dependencies": {
+   "dependencies": {
         "3.npm": "^1.0.0",
         "asn1": "^0.2.4",
         "async": "^2.6.3",
+        "base58-native": "^0.1.4",
         "bcrypt-pbkdf": "^1.0.2",
         "bignum": "^0.13.1",
-        "bignumber.js": "^6",
+        "bignumber.js": "^6.0.0",
+        "bitcoinjs-lib": "git+https://github.com/Zuz99/bitcoinjs-lib.git",
+        "bitgo-utxo-lib": "git+https://github.com/Zuz99/bitgo-utxo-lib.git",
         "body-parser": "^1.18.3",
         "chart.js": "^2.9.4",
         "chartjs-plugin-zoom": "^0.6.6",
@@ -51,14 +54,17 @@
         "ip-anonymize": "^0.1.0",
         "logger": "0.0.1",
         "ls": "^0.2.1",
+        "merkle-bitcoin": "*",
         "mime-types": "^2.1.21",
         "moment": "^2.23.0",
+        "multi-hashing": "git+https://github.com/Zuz99/multihashing.git",
         "mysql": "^2.16.0",
         "newrelic": "^5.1.0",
         "node-json-minify": "^1.0.0",
-        "node-merged-pool": "git+https://github.com/digvpn/node-merged-pool-nzs.git",
         "node-watch": "^0.5.9",
         "nonce": "^1.0.4",
+        "promise": "^8.0.1",
+        "react-particles-webgl": "^1.0.10",
         "redis": "^2.8.0",
         "redis-commands": "^1.7.0",
         "request": "^2.88.0",
@@ -68,11 +74,12 @@
         "sma": "^0.1.1",
         "sshpk": "^1.15.2",
         "stratum-pool": "git+https://github.com/Zuz99/stratum-nomp.git",
+        "three": "^0.170.0",
         "winston": "^3.2.1",
         "winston-daily-rotate-file": "^3.5.1",
         "winston-transport": "^4.3.0"
     },
     "engines": {
-        "node": ">=12.22.12"
+        "node": ">=10.24.1"
     }
-}
+
