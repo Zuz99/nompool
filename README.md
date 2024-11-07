@@ -82,7 +82,7 @@ Other helpfull commands.
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/Zuz99/nompool.git
     cd nompool/
-    bash install.sh
+    bash install.sh < ubuntu 18 and bash ub20.sh for ubuntu20
 
 -------
 ### Configure Pool
