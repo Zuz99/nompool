@@ -1,6 +1,6 @@
 {
-    "name": "KawPoWNOMP",
-    "version": "1.1.5",
+    "name": "NOMPS",
+    "version": "0.0.1",
     "description": "An extremely efficient, highly scalable, KawPoW algorithm mining pool",
     "keywords": [
         "stratum",
@@ -14,27 +14,17 @@
         "Splendidcoin",
         "KawPoW"
     ],
-    "homepage": "https://github.com/digvpn/kawpow-pool",
+    "homepage": "https://github.com/Zuz99/nompool",
     "bugs": {
-        "url": "https://github.com/digvpn/kawpow-pool/issues"
+        "url": "https://github.com/Zuz99/nompool/issues"
     },
-    "license": "GPL-2.0",
-    "author": "Dirty Harry",
-    "contributors": [
-        "leshacat",
-        "devnulled",
-        "foxer666",
-        "vekexasia",
-        "TheSeven",
-        "Kris Klosterman"
-    ],
     "main": "init.js",
     "bin": {
         "block-notify": "./scripts/blockNotify.js"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/digvpn/kawpow-pool.git"
+        "url": "https://github.com/Zuz99/nompool.git"
     },
     "dependencies": {
         "3.npm": "^1.0.0",
@@ -77,7 +67,7 @@
         "sha3": "^2.1.4",
         "sma": "^0.1.1",
         "sshpk": "^1.15.2",
-        "stratum-pool": "git+https://github.com/digvpn/stratum-pool-zone.git",
+        "stratum-pool": "git+https://github.com/Zuz99/stratum-nomp.git",
         "winston": "^3.2.1",
         "winston-daily-rotate-file": "^3.5.1",
         "winston-transport": "^4.3.0"
