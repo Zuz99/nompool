@@ -1,6 +1,8 @@
 # NOMP Pool
 Highly Efficient mining pool !
 Update <b> Nov 2024 OS: Ubuntu 18+/20+</b>
+NOT FULL TESTED
+Support algo ( flex-Curvehash and other)
 
 -------
 ### Screenshots
@@ -82,7 +84,7 @@ Other helpfull commands.
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/Zuz99/nompool.git
     cd nompool/
-    bash install.sh
+    bash install.sh < ubuntu 18 and bash ub20.sh for ubuntu20
 
 -------
 ### Configure Pool
@@ -370,10 +372,13 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
     cd ~/nompool
     node init.js
 
-### Donates for developers KawPoWNOMP
+### Donates for NOMP
 
 
 BTC: bc1qcj77e34nhts83a8ttyrr2d7y7p00avgd53yd5l
+-------
+### Credit:
+| [Zone117x](https://github.com/zone117x) | [EasyX-Community](https://github.com/EasyX-Community)|
+| [DirtyHarryDev](https://github.com/DirtyHarryDev) | [Satoex](https://github.com/Satoex) 
 
-    
 -------
