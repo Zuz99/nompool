@@ -73,6 +73,6 @@
         "winston-transport": "^4.3.0"
     },
     "engines": {
-        "node": ">=18.20.4"
+        "node": ">=12.22.12"
     }
 }

@@ -41,8 +41,8 @@ sudo chown -R $USER:$GROUP ~/.nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-nvm install v18.20.4
-nvm use v18.20.4
+nvm install v12.22.12
+nvm use v12.22.12
 
 npm update -g
 

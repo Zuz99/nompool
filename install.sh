@@ -41,8 +41,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 source ~/.nvm/nvm.sh
-nvm install v18.20.4
-nvm use v18.20.4
+nvm install v12.22.12
+nvm use v12.22.12
 git config --global url.https://github.com/.insteadOf git://github.com/
 npm update -g
 
@@ -52,7 +52,7 @@ npm install -g pm2@4
 
 npm install
 npm update
-npm audit fix
+npm audit fix --force
 npm install sha3
 npm install logger
 
