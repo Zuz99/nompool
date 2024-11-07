@@ -376,8 +376,7 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
 BTC: bc1qcj77e34nhts83a8ttyrr2d7y7p00avgd53yd5l
 -------
 ### Credit:
-| [Zone117x](https://github.com/zone117x) | https://github.com/zone117x/stratum-pool|
-| [EasyX-Community](https://github.com/EasyX-Community) | https://github.com/EasyX-Community/ |
-| [Node Multihashing](https://github.com/digvpn/node-multi-hashing) | https://github.com/digvpn/node-multi-hashing |
+| [Zone117x](https://github.com/zone117x) | [EasyX-Community](https://github.com/EasyX-Community)|
+| [DirtyHarryDev](https://github.com/DirtyHarryDev) | 
 
 -------
