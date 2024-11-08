@@ -33,7 +33,7 @@ sudo systemctl start ntp
 
 sudo rm -rf ~/.nvm
 sudo rm -rf ~/.npm
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 source ~/.bashrc
 
 sudo chown -R $USER:$GROUP ~/.nvm
