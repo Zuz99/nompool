@@ -1,0 +1,16 @@
+{
+    "name": "Pulsar",    
+    "symbol": "PLSR",    
+    "algorithm": "curvehash",
+    
+    "wallet": "https://pulsarcoin.info/",
+
+    "explorer":"https://explorer.pulsarcoin.org/",
+    
+    "explorerGetBlockJSON": "https://https://explorer.pulsarcoin.org//api/getrawtransaction?decrypt=1&txid=",
+    "explorerGetBlock": "https://https://explorer.pulsarcoin.org//block/",
+    "explorerGetTX": "https://https://explorer.pulsarcoin.org//tx/",
+    
+    "blockTime": 60,
+    "blockChange": 1   
+}

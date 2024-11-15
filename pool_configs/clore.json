@@ -1,13 +1,13 @@
 {
     "enabled": false,
-    "coin": "sato.json",
+    "coin": "clore.json",
 
-    "address": "SX4D1rwYopB4VGCoJRdtHiPBG9M64y37UD",
+    "address": "AP513QAX8sfJsviWA9HAKv2HAwGboVnybU",
     
-    "donateaddress": "SX4D1rwYopB4VGCoJRdtHiPBG9M64y37UD",
+    "donateaddress": "AP513QAX8sfJsviWA9HAKv2HAwGboVnybU",
 
     "rewardRecipients": {
-        "SX4D1rwYopB4VGCoJRdtHiPBG9M64y37UD": 0.5
+        "AP513QAX8sfJsviWA9HAKv2HAwGboVnybU": 0.5
     },
 
     "paymentProcessing": {
@@ -19,15 +19,15 @@
         "minConf": 30,
         "coinPrecision": 8,
         "daemon": {
-            "host": "127.0.0.1",
-            "port": 3334,
-            "user": "user1",
-            "password": "pass1"
+            "host": "192.168.1.5",
+            "port": 9766,
+            "user": "ari",
+            "password": "121213"
         }
     },
 
     "ports": {
-	"11008": {
+	"3300": {
             "diff": 0.05,
     	    "varDiff": {
     	        "minDiff": 0.025,
@@ -38,7 +38,7 @@
     		"maxJump": 25
     	    }
         },
-        "11016": {
+        "10016": {
 	    "diff": 0.10,
             "varDiff": {
                 "minDiff": 0.05,
@@ -49,7 +49,7 @@
 		"maxJump": 25
             }
         },
-        "11032": {
+        "10032": {
 	    "diff": 0.20,
             "varDiff": {
     		"minDiff": 0.10,
@@ -60,7 +60,7 @@
     		"maxJump": 50
     	    }
         },
-	"11256": {
+	"10256": {
 	    "diff": 1024000000,
             "varDiff": {
                 "minDiff": 1024000000,
@@ -75,17 +75,17 @@
 
     "daemons": [
         {
-            "host": "127.0.0.1",
-            "port": 3334,
-            "user": "user1",
-            "password": "pass1"
+            "host": "192.168.1.5",
+            "port": 9766,
+            "user": "ari",
+            "password": "121213"
         }
     ],
 
     "p2p": {
         "enabled": false,
         "host": "127.0.0.1",
-        "port": 3333,
+        "port": 8767,
         "disableTransactions": true
     },
 
@@ -95,7 +95,7 @@
         "port": 3306,
         "user": "me",
         "password": "mypass",
-        "database": "sato",
+        "database": "rvn",
         "checkPassword": true,
         "autoCreateWorker": false
     },
@@ -105,7 +105,7 @@
         "host": "127.0.0.1",
         "user": "",
         "pass": "",
-        "database": "sato",
+        "database": "rvn",
         "authMechanism": "DEFAULT"
     }
 

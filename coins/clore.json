@@ -1,6 +1,6 @@
 {
-    "name": "ravencoin",    
-    "symbol": "RVN",    
+    "name": "Clore",    
+    "symbol": "CLORE",    
     "algorithm": "kawpow",
     
     "wallet": "https://github.com/RavenProject/Ravencoin/releases",

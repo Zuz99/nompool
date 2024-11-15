@@ -1,0 +1,7 @@
+{
+    "name": "Myriadcoin",
+    "symbol": "XMY",
+    "algorithm": "yescrypt",
+	"getblocktemplate": "POW", 
+    "reward": "POW"
+}
